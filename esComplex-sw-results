@@ -1,0 +1,154 @@
+{
+  reports: [
+    {
+      aggregate: [Object],
+      functions: [],
+      dependencies: [Array],
+      maintainability: 101.88044674333077,
+      loc: 14,
+      cyclomatic: 1,
+      effort: 2229.645341142704,
+      params: 0,
+      path: './src/service-worker.js'
+    }
+  ],
+  adjacencyMatrix: [ [ 0 ] ],
+  firstOrderDensity: 0,
+  visibilityMatrix: [ [ 0 ] ],
+  changeCost: 100,
+  coreSize: 0,
+  loc: 14,
+  cyclomatic: 1,
+  effort: 2229.645341142704,
+  params: 0,
+  maintainability: 101.88044674333077
+}
+{
+  "reports": [
+    {
+      "aggregate": {
+        "sloc": {
+          "logical": 14,
+          "physical": 61
+        },
+        "cyclomatic": 1,
+        "halstead": {
+          "operators": {
+            "distinct": 9,
+            "total": 37,
+            "identifiers": [
+              "const",
+              "=",
+              "()",
+              ".",
+              "new",
+              "+",
+              "{}",
+              ":",
+              "[]"
+            ]
+          },
+          "operands": {
+            "distinct": 29,
+            "total": 37,
+            "identifiers": [
+              "\"workbox-core\"",
+              "require",
+              "\"workbox-expiration\"",
+              "\"workbox-precaching\"",
+              "\"workbox-routing\"",
+              "\"workbox-strategies\"",
+              "clientsClaim",
+              "self",
+              "__WB_MANIFEST",
+              "precacheAndRoute",
+              "fileExtensionRegexp",
+              "\"/[^/?]+\\.[^/]+$\"",
+              "RegExp",
+              "process",
+              "env",
+              "PUBLIC_URL",
+              "\"/index.html\"",
+              "createHandlerBoundToURL",
+              "registerRoute",
+              "<anonymous>",
+              "cacheName",
+              "\"images\"",
+              "plugins",
+              "maxEntries",
+              50,
+              "ExpirationPlugin",
+              "StaleWhileRevalidate",
+              "\"message\"",
+              "addEventListener"
+            ]
+          },
+          "length": 74,
+          "vocabulary": 38,
+          "difficulty": 5.741379310344828,
+          "volume": 388.3466359948253,
+          "effort": 2229.645341142704,
+          "bugs": 0.12944887866494176,
+          "time": 123.86918561903911
+        },
+        "params": 0,
+        "line": 10,
+        "cyclomaticDensity": 7.142857142857142
+      },
+      "functions": [],
+      "dependencies": [
+        {
+          "line": 10,
+          "path": "workbox-core",
+          "type": "CommonJS"
+        },
+        {
+          "line": 11,
+          "path": "workbox-expiration",
+          "type": "CommonJS"
+        },
+        {
+          "line": 12,
+          "path": "workbox-precaching",
+          "type": "CommonJS"
+        },
+        {
+          "line": 13,
+          "path": "workbox-routing",
+          "type": "CommonJS"
+        },
+        {
+          "line": 14,
+          "path": "workbox-strategies",
+          "type": "CommonJS"
+        }
+      ],
+      "maintainability": 101.88044674333077,
+      "loc": 14,
+      "cyclomatic": 1,
+      "effort": 2229.645341142704,
+      "params": 0,
+      "path": "./src/service-worker.js"
+    }
+  ],
+  "adjacencyMatrix": [
+    [
+      0
+    ]
+  ],
+  "firstOrderDensity": 0,
+  "visibilityMatrix": [
+    [
+      0
+    ]
+  ],
+  "changeCost": 100,
+  "coreSize": 0,
+  "loc": 14,
+  "cyclomatic": 1,
+  "effort": 2229.645341142704,
+  "params": 0,
+  "maintainability": 101.88044674333077
+}
+
+Process finished with exit code 0
